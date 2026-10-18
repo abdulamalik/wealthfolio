@@ -8,7 +8,22 @@
     "apps/frontend/src/i18n/locales/{locale}/goals.json",
     "apps/frontend/src/i18n/locales/{locale}/activity.json",
     "apps/frontend/src/i18n/locales/{locale}/spending.json",
-    "apps/frontend/src/i18n/locales/{locale}/asset.json"
+    "apps/frontend/src/i18n/locales/{locale}/asset.json",
+    "apps/frontend/src/i18n/locales/{locale}/ai.json",
+    "apps/frontend/src/i18n/locales/{locale}/health.json",
+    "apps/frontend/src/i18n/locales/{locale}/common.json",
+    "apps/frontend/src/i18n/locales/{locale}/connect.json",
+    "apps/frontend/src/i18n/locales/{locale}/allocation.json",
+    "apps/frontend/src/i18n/locales/{locale}/sync.json",
+    "apps/frontend/src/i18n/locales/{locale}/holdings.json",
+    "apps/frontend/src/i18n/locales/{locale}/account.json",
+    "apps/frontend/src/i18n/locales/{locale}/insights.json",
+    "apps/frontend/src/i18n/locales/{locale}/performance.json",
+    "apps/frontend/src/i18n/locales/{locale}/ui.json",
+    "apps/frontend/src/i18n/locales/{locale}/dashboard.json",
+    "apps/frontend/src/i18n/locales/{locale}/income.json",
+    "apps/frontend/src/i18n/locales/{locale}/auth.json",
+    "apps/frontend/src/i18n/locales/{locale}/onboarding.json"
   ],
   "doNotTranslate": [
     "Wealthfolio Connect",
@@ -17,6 +32,9 @@
     "Lean FIRE",
     "Fat FIRE",
     "my-provider",
-    ".price-value, [data-field='last']"
+    ".price-value, [data-field='last']",
+    "ETF",
+    "TWR",
+    "MWR"
   ]
 }
