@@ -142,6 +142,7 @@
     "partialSyncing_few": "{{syncing}} من أصل {{total}} من الحسابات قيد المزامنة · {{excluded}} حسابات مستبعدة",
     "partialSyncing_many": "{{syncing}} من أصل {{total}} من الحسابات قيد المزامنة · {{excluded}} حسابًا مستبعدًا",
     "partialSyncing_one": "{{syncing}} من أصل {{total}} من الحسابات قيد المزامنة · {{excluded}} حساب مستبعد",
+    "partialSyncing_two": "{{syncing}} من أصل {{total}} من الحسابات قيد المزامنة · {{excluded}} حسابات مستبعدة",
     "partialSyncing_other": "{{syncing}} من أصل {{total}} من الحسابات قيد المزامنة · {{excluded}} حساب مستبعد",
     "partialSyncing_zero": "تتم مزامنة {{syncing}} من أصل {{total}} حساب · الحسابات المستبعدة: {{excluded}}",
     "reconnect": "إعادة الاتصال",
