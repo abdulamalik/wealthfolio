@@ -1,16 +1,102 @@
 {
   "accountHoldings": {
-    "remove_position_description": "هل تريد إزالة هذا الأصل من لقطة {{accountName}} بتاريخ {{date}}؟ سيتم الاحتفاظ بالمراكز الأخرى في اللقطة."
+    "remove_position_description": "هل تريد إزالة هذا الأصل من لقطة {{accountName}} بتاريخ {{date}}؟ سيتم الاحتفاظ بالمراكز الأخرى في اللقطة.",
+    "account": "الحساب",
+    "avg_cost": "متوسط التكلفة",
+    "cost_basis": "أساس التكلفة",
+    "date": "التاريخ",
+    "manual": "يدوي",
+    "market_value": "القيمة السوقية",
+    "remove": "إزالة",
+    "remove_position_title": "إزالة المركز",
+    "removing": "جارٍ الإزالة...",
+    "shares": "الأسهم",
+    "shares_suffix": "سهم",
+    "source": "المصدر",
+    "source_broker": "الوسيط",
+    "source_csv": "CSV",
+    "source_manual": "يدوي",
+    "total_pnl": "إجمالي الأرباح والخسائر",
+    "update_holdings": "تحديث الحيازات"
   },
   "altContent": {
     "delete_asset_description": "هل أنت متأكد من أنك تريد حذف {{name}}؟ سيؤدي ذلك إلى إزالة سجل التقييم بالكامل ولا يمكن التراجع عنه.",
     "kind": {
-      "other": "أخرى"
+      "other": "أخرى",
+      "collectible": "مقتنيات",
+      "liability": "التزام",
+      "precious": "معدن ثمين",
+      "property": "عقار",
+      "vehicle": "مركبة"
     },
     "liabilityType": {
-      "other": "أخرى"
+      "other": "أخرى",
+      "auto_loan": "قرض سيارة",
+      "credit_card": "بطاقة ائتمان",
+      "heloc": "HELOC",
+      "mortgage": "رهن عقاري",
+      "personal_loan": "قرض شخصي",
+      "student_loan": "قرض دراسي"
     },
-    "percent_of_original": "{{percent}} من القيمة الأصلية"
+    "percent_of_original": "{{percent}} من القيمة الأصلية",
+    "about": "حول",
+    "address": "العنوان",
+    "amount_paid": "المبلغ المدفوع",
+    "collectibleType": {
+      "art": "فن",
+      "jewelry": "مجوهرات",
+      "memorabilia": "تذكارات",
+      "watch": "ساعة",
+      "wine": "نبيذ"
+    },
+    "current_balance": "الرصيد الحالي",
+    "delete": "حذف",
+    "delete_asset_title": "حذف الأصل",
+    "deleting": "جارٍ الحذف...",
+    "description": "الوصف",
+    "details": "التفاصيل",
+    "end_date": "تاريخ الانتهاء",
+    "increased": "ارتفع ",
+    "interest_rate": "سعر الفائدة",
+    "last_updated": "آخر تحديث",
+    "make_model": "الصنع/الطراز",
+    "metalType": {
+      "gold": "ذهب",
+      "palladium": "بالاديوم",
+      "platinum": "بلاتين",
+      "silver": "فضة"
+    },
+    "mortgage_suffix": "رهن عقاري",
+    "net_equity": "صافي حقوق الملكية",
+    "no_liabilities": "(لا توجد التزامات)",
+    "no_notes": "لم تتم إضافة ملاحظات.",
+    "no_valuation_data": "لا توجد بيانات تقييم",
+    "no_valuation_description": "أضف أول تقييم لعرض المخطط",
+    "original_amount": "المبلغ الأصلي",
+    "origination_date": "تاريخ الإصدار",
+    "paid_down": "تم سداد ",
+    "propertyType": {
+      "commercial": "تجاري",
+      "land": "أرض",
+      "rental": "عقار للإيجار",
+      "residence": "السكن الرئيسي"
+    },
+    "purchase_date": "تاريخ الشراء",
+    "purchase_price": "سعر الشراء",
+    "purchase_price_per_unit": "سعر الشراء/الوحدة",
+    "quantity": "الكمية",
+    "vehicleType": {
+      "aircraft": "طائرة",
+      "boat": "قارب",
+      "car": "سيارة",
+      "motorcycle": "دراجة نارية",
+      "rv": "مركبة ترفيهية"
+    },
+    "weightUnit": {
+      "g": "غرام",
+      "kg": "كيلوغرام",
+      "oz": "أونصة تروي"
+    }
   },
   "assetForm": {
     "name": "الاسم",
@@ -22,7 +108,11 @@
     "save_changes": "حفظ التغييرات",
     "saving": "جارٍ الحفظ",
     "select_quote_mode": "اختر وضع التسعير",
-    "symbol": "الرمز"
+    "symbol": "الرمز",
+    "classifications": "التصنيفات",
+    "currency": "العملة",
+    "manual": "يدوي",
+    "market_data": "بيانات السوق"
   },
   "classification": {
     "add": "إضافة",
