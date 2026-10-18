@@ -1,0 +1,14 @@
+{
+  "sourceLocale": "en",
+  "targetLocales": [
+    "ar"
+  ],
+  "files": [
+    "apps/frontend/src/i18n/locales/{locale}/settings.json",
+    "apps/frontend/src/i18n/locales/{locale}/goals.json"
+  ],
+  "doNotTranslate": [
+    "Wealthfolio Connect",
+    "Wealthfolio"
+  ]
+}
