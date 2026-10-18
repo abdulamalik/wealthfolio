@@ -5,10 +5,18 @@
   ],
   "files": [
     "apps/frontend/src/i18n/locales/{locale}/settings.json",
-    "apps/frontend/src/i18n/locales/{locale}/goals.json"
+    "apps/frontend/src/i18n/locales/{locale}/goals.json",
+    "apps/frontend/src/i18n/locales/{locale}/activity.json",
+    "apps/frontend/src/i18n/locales/{locale}/spending.json",
+    "apps/frontend/src/i18n/locales/{locale}/asset.json"
   ],
   "doNotTranslate": [
     "Wealthfolio Connect",
-    "Wealthfolio"
+    "Wealthfolio",
+    "Coast FIRE",
+    "Lean FIRE",
+    "Fat FIRE",
+    "my-provider",
+    ".price-value, [data-field='last']"
   ]
 }
