@@ -32,7 +32,11 @@
     "years_left_other": "يتبقى {{count}} عام",
     "years_left_two": "يتبقى عامان",
     "years_left_zero": "لم يتبقَّ أي عام",
-    "years_months_left": "يتبقى {{years}} س و{{months}} ش"
+    "years_months_left": "يتبقى {{years}} س و{{months}} ش",
+    "quote_custom_save_up": "شيئًا فشيئًا",
+    "quote_education": "من أجل تعلّمٍ قادم",
+    "quote_retirement": "عصرٌ طويل هادئ",
+    "quote_wedding": "يومٌ لا يُنسى"
   },
   "contribution_limits": "حدود المساهمة",
   "current_amount": "المبلغ الحالي",
@@ -69,7 +73,12 @@
       "unfunded_pct": "غير ممول {{pct}}%",
       "unfunded_spending": "إنفاق غير ممول",
       "unfunded_title": "غير ممول: {{pct}}%",
-      "withdrawal_taxes": "ضرائب السحب"
+      "withdrawal_taxes": "ضرائب السحب",
+      "age_range": "العمر {{start}} ← {{end}}",
+      "amount_per_mo": "{{amount}} شهريًا",
+      "at_age_dash": "في عمر {{age}} —",
+      "at_retirement": "عند التقاعد",
+      "chart_details_aria": "تفاصيل مخطط التغطية"
     },
     "create_first_goal": "أنشئ هدفك الأول",
     "disclaimer": {
@@ -165,6 +174,39 @@
       "spending_gap_suffix": "قبل أن تبلغ الخطة سن {{age}}.",
       "surplus_prefix": "يُتوقع أن تتقاعد في سن {{age}} بفائض قدره",
       "surplus_suffix": "."
+    },
+    "age_label": "العمر {{age}}",
+    "archived_count_few": "المؤرشفة ({{count}})",
+    "archived_count_many": "المؤرشفة ({{count}})",
+    "archived_count_one": "المؤرشفة ({{count}})",
+    "archived_count_other": "المؤرشفة ({{count}})",
+    "archived_count_two": "المؤرشفة ({{count}})",
+    "archived_count_zero": "المؤرشفة ({{count}})",
+    "badge": {
+      "at_risk": "معرّض للخطر",
+      "fi_reached": "تحقق الاستقلال المالي",
+      "never_reaches_fi": "غير متوقع بحلول عمر {{age}}",
+      "on_track": "على المسار الصحيح",
+      "runs_short": "ينفد مبكرًا",
+      "shortfall": "عجز",
+      "surplus": "فائض",
+      "years_late_few": "تأخير {{count}} سنوات",
+      "years_late_many": "تأخير {{count}} سنة",
+      "years_late_one": "تأخير سنة واحدة",
+      "years_late_other": "تأخير {{count}} سنة",
+      "years_late_two": "تأخير سنتين",
+      "years_late_zero": "بلا تأخير"
+    },
+    "chart": {
+      "portfolio_trajectory": "مسار المحفظة",
+      "portfolio_trajectory_aria": "مزيد من المعلومات حول مسار المحفظة",
+      "projected": "المتوقع",
+      "projection_age_range": "التوقعات · العمر {{start}} ← {{end}}",
+      "required": "المطلوب",
+      "required_tip_fire": "الحد الأدنى للرصيد المطلوب في كل عمر لتحقيق هدف عمر التقاعد المنشود بعد احتساب المساهمات المخطط لها المتبقية لديك.",
+      "required_tip_traditional": "الحد الأدنى للرصيد المطلوب في كل عمر لتتمكن من التقاعد في العمر المستهدف وتمويل الإنفاق المخطط له حتى نهاية متوسط العمر المتوقع.",
+      "trajectory_tip_fire": "تُظهر علامة الاستقلال المالي أول عمر يكون فيه الوضع مستدامًا. و\"ما ستحتاجه\" هو الحد الأدنى للرصيد المطلوب في كل عمر بعد احتساب مساهماتك المخطط لها المتبقية. ولا يبدأ من قيمة محفظتك الحالية إلا إذا كنت على المسار الصحيح تمامًا. و\"ما سيكون لديك\" هو المسار المتوقع للمحفظة.",
+      "trajectory_tip_traditional": "تُظهر علامة التقاعد موعد بدء السحوبات. و\"ما ستحتاجه\" هو الحد الأدنى للرصيد المطلوب في كل عمر لمواصلة تمويل الإنفاق المخطط له في التقاعد حتى نهاية متوسط العمر المتوقع."
     }
   },
   "delete_confirm_message": "هل تريد بالتأكيد حذف هذا الهدف؟",
@@ -929,5 +971,14 @@
     "todays_money": "قيمة اليوم",
     "todays_value": "القيمة الحالية"
   },
-  "year": "السنة"
+  "year": "السنة",
+  "coverage_chart": {
+    "age_value": "العمر {{age}} · {{valueLabel}}",
+    "planned_spending_yr": "الإنفاق المخطط له سنويًا:",
+    "portfolio_withdrawal_used_yr": "السحب المستخدم من المحفظة سنويًا:",
+    "retirement_income_used_yr": "دخل التقاعد المستخدم سنويًا:",
+    "spending_covered": "الإنفاق المغطّى:",
+    "unfunded_spending_yr": "الإنفاق غير المموّل سنويًا:",
+    "withdrawal_taxes_yr": "ضرائب السحب سنويًا:"
+  }
 }
